@@ -1,0 +1,66 @@
+.login{
+    text-align: center;
+    background-color: #eefdff;
+    font-family: 'Urbanist';
+    overflow: hidden;
+    font-size: 43px;
+    min-height: 100vh;
+    font-family: 'Urbanist';
+}
+
+.login .loginForm{
+    width: 500px;
+    border: none;
+    border-radius: 46px;
+    box-shadow: 0px 0px 2px 2px rgba(40, 111, 180, 0.4);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login .usernameLabel{
+    text-align: left;
+    font-size: 20px;
+    padding-top: 2rem;
+    padding-left: 5rem;
+}
+
+.login .passwordLabel{
+    text-align: left;
+    padding-left: 5rem;
+    margin-top: 1rem;
+    font-size: 20px;
+}
+
+.login .input{
+    border: none;
+    box-shadow: 0px 0px 1px 1px rgba(128, 128, 128, 0.4);
+    width: 350px;
+    height: 50px;
+    margin-top: 1rem;
+    font-size: 25px;
+}
+
+.login .button{
+    color: white;
+    border: none;
+    height: 35px;
+    width: 80px;
+    margin-left: 18rem;
+    margin-bottom: 1rem;
+    background-color: #286fb4;
+    cursor: pointer;
+}
+
+.login .header{
+    font-size: 60px;
+    margin-top: 10rem;
+}
+
+.login .passwordIcon{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-left: 19.5rem;
+    margin-top: 1.8rem;
+    cursor: pointer;
+}

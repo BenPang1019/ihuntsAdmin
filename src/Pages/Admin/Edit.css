@@ -1,0 +1,873 @@
+.editProduct{
+    overflow: hidden;
+    background-color:#D7E4F2;
+    width:100%;
+    margin: 0px 0px 0px 0px ;
+	min-height: 100vh ;
+	padding: 0px 0px 0px 0px ;
+    font-family: 'Urbanist';
+}
+
+.EDfirstsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.EDfirstcontainer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 60rem;
+    height: 6rem;
+}
+
+.EDbacktbtn{
+    margin-left: 0rem;
+    border-radius: 18px;
+    width: 11.625rem;
+    height: 4.8rem;
+    border: 5px solid #286FB4;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: rgba(11, 10, 10, 0.6);
+    cursor: pointer;
+}
+
+
+
+.EDcolumn-30 {
+    flex: 30%;
+}
+
+.EDsecondColumn-30 {
+    flex: 30%;
+    padding: 2rem;
+}
+
+.EDcolumn-40 {
+    flex: 40%;
+    text-align: center;
+    height:auto;
+}
+
+.EDcolumn {
+    flex: 70%;
+    padding: 2rem;
+}
+
+
+.right{
+    text-align: right;
+}
+
+.left{
+    text-align: left;
+}
+
+.EDsecondsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+.EDcenter-container{
+    display: flex;
+    text-align: center;
+    border-radius: 1rem;
+    align-content: center;
+    background-color: #F3F7FB;
+    width: 70rem;
+    height:max-content;
+}
+
+.EDh1Text{
+    /* font-family: 'Nunito'; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: rgba(10, 10, 11, 0.6);
+}
+
+.EDh1TextTwo{
+    /* font-family: 'Nunito'; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: rgba(10, 10, 11, 0.6);
+}
+
+
+.EDText{
+    /* font-family: 'Nunito'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #0A0A0B;
+    border-width: 0 0 2px 0;
+	border-color: #5C6168;
+    display: block;
+    width: 97%;
+    overflow: hidden;
+    height: max-content;
+}
+
+.EDinput{
+    border-width: 0 0 2px 0;
+	border-color: #5C6168;
+    background-color: transparent;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #0A0A0B;
+    width:100%;
+    height: max-content;
+}
+
+.EDinput2{
+    border:transparent;
+    background-color: transparent;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #0A0A0B;
+    min-width: 100%;
+    min-height: 60px;
+}
+
+::placeholder{
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #0A0A0B;
+}
+
+.EDthirdsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+    margin-top: -2.5rem;
+}
+
+.btnstyle{
+    width: 7rem;
+    height: 7rem;
+    cursor: pointer;
+}
+
+.btnstyle1{
+    width: 5rem;
+    cursor: pointer;
+}
+
+.space-1{
+    margin-left: 1rem;
+}
+
+.flowersize{
+   width:60rem;
+}
+
+.ED2-center-container{
+    text-align: center;
+    border-radius: 1rem;
+    align-content: center;
+    background-color: #F3F7FB;
+    width: 58.063rem;
+    height:max-content;
+}
+
+.detailsection{
+    display: flex;
+}
+
+.selectStyles{
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #0A0A0B;
+    width:100%;
+    height: max-content;
+    background-color: transparent;
+    border-width: 0 0 2px 0;
+	border-color: #5C6168;
+}
+
+.otherImgstyle{
+    border-radius: 5rem;
+    /* border-end-start-radius: 2rem; */
+    width: 7rem;
+    height: 7rem;
+    margin-right: 5rem;
+}
+
+.fileButton{
+    display: none;
+}
+
+.labelButton{
+    text-align: center;
+    padding-top: 0.5rem;
+    width: 8rem;
+    height: 2rem;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 3rem;
+    border-radius: 18px;
+    border: 5px solid #286FB4;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(11, 10, 10, 0.6);
+    cursor: pointer;
+}
+
+.labelButtonTwo{
+    text-align: center;
+    padding-top: 0.5rem;
+    width: 10rem;
+    height: 2rem;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 1rem;
+    margin-right: 3rem;
+    margin-left: 2.3rem;
+    border-radius: 18px;
+    border: 5px solid #286FB4;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(11, 10, 10, 0.6);
+    cursor: pointer;
+}
+
+.grow { 
+    transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+    transform: scale(1.1); 
+}
+
+.pagination{
+    width: 1200px;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    font-size: 22px;
+    text-align: center;
+}
+
+.break{
+    display: inline-block;
+}
+
+/* li */
+.pageItem{
+    display: inline-block;
+    padding: 1rem;
+}
+
+/* a */
+.pageLink{
+    color: rgb(128, 128, 128);
+    text-decoration: none;
+}
+
+.pageLinkActive{
+    color: black;
+}
+
+.xIconOne{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 5rem;
+    margin-top: -0.5rem;  
+}
+
+.xIconOneNews{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 56rem;
+    margin-top: -0.8rem;  
+}
+
+.xIconTwo{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 5rem;
+    margin-top: -0.5rem; 
+}
+
+.xIconThree{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 17rem;
+    margin-top: -0.5rem; 
+}
+
+.xIconFour{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 29rem;
+    margin-top: -0.5rem; 
+}
+
+.xIconFive{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 14.7rem;
+    margin-top: -1.5rem; 
+}
+
+.confirmButton{
+    width: 186px!important;
+    height: 63px!important;
+    border: 5px solid #286FB4!important ;
+    box-shadow: 8px 8px 18px rgba(40, 111, 180, 0.4)!important;
+    border-radius: 20px!important;
+    color: #0A0A0B!important;
+    margin-left: 20px!important;
+}
+
+.title{
+    font-family: 'Nunito'!important;
+    font-style: normal!important;
+    font-weight: 700!important;
+    font-size: 40px!important;
+    line-height: 55px!important;
+    text-align: center;
+    color: #0A0A0B!important;
+}
+
+.popup{
+    width: 714px!important;
+    height: 291px!important;
+    background: #F3F7FB!important;
+    border-radius: 24px!important;
+}
+
+table, td, th {
+    border: 1px solid;
+    
+  }
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableLeft{
+    font-size: 20px;
+    
+}
+
+.tableInput{
+    width: 100px;
+    border:transparent;
+    background-color: transparent;
+
+}
+
+.guideImage{
+    width: 923px;
+    height: 453px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.mediacontainerOne{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80rem;
+    text-align: center;
+}
+
+.mediacontainerOneImage{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -2rem;
+    width: 80rem;
+    text-align: center;
+}
+
+.media{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+    color: #0A0A0B;
+
+}
+
+.add{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #286FB4;
+}
+
+.donebtn{
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 18px;
+    width: 11.625rem;
+    height: 4.8rem;
+    border: 5px solid #286FB4;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: rgba(11, 10, 10, 0.6);
+    cursor: pointer;    
+}
+
+.cancelbtn{
+    border-radius: 18px;
+    width: 11.625rem;
+    height: 4.8rem;
+    border: 5px solid #286FB4;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: rgba(11, 10, 10, 0.6);
+    cursor: pointer;
+    margin-bottom: 4rem;
+}
+
+.mediaImage{
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.mediacontaierTwo{
+    width: 60rem;
+    height: 30rem;
+    padding-left: 135px;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.mediacontaierTwoImage{
+    width: 60rem;
+    height: 28rem;
+    padding-left: 135px;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.mediacontainerThree{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80rem;
+    position: absolute;
+    margin-top: -25rem;
+}
+
+.inline{
+    display: inline-block;
+}
+
+.mediaContainer{
+    position: absolute;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    left: 0;
+    right: 0;
+    width: 80rem;
+    height: 55rem;
+    border-radius: 20px;
+    background-color: #fff;
+    z-index: 1000;
+}
+
+.mediaContainerOverlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #286FB4;
+    width: 100%;
+    z-index: 999;
+    height: 151%;
+}
+
+.mediacontainerThreeProduct{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.counterImage{
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin-top: -8.2rem;
+    margin-left: 6.3rem;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.pagination{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+}
+
+
+.pagination li{
+    display: inline-block;
+    color: grey;
+    cursor: pointer;
+}
+
+.pagination li.active{
+    color: black;
+}
+
+.EDcolumn-30Product {
+    margin-top: -8rem;
+    margin-left: 60rem;
+}
+
+.deleteCheckbox{
+    position: absolute;
+    margin-left: 6rem;
+    margin-top: 1rem;
+}
+
+
+input[type="checkbox"] {
+    appearance: none;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    width: 25px;
+    height: 25px;
+  }
+  
+input[type="checkbox"]:checked {
+    background-color: #333;
+}
+
+textarea{
+    resize: vertical; 
+    max-height: 300px;  
+}
+
+
+.EDcenter-containerProfile{
+    display: flex;
+    text-align: center;
+    border-radius: 1rem;
+    align-content: center;
+    background-color: transparent;
+    width: 70rem;
+    height:max-content;
+}
+
+.EDsecondsectionProfile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+    margin-left: 10rem;
+}
+
+.newdata{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #286FB4;
+    cursor: pointer;
+}
+
+.EDinputProfile{
+    border-width: 0 0 2px 0;
+	border-color: #5C6168;
+    background-color: transparent;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #0A0A0B;
+    width:50%;
+    height: max-content;
+}
+
+.specImage{
+    width: 500px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.specxIconTwo{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 29rem;
+    margin-top: -0.7rem; 
+}
+
+.specxIconThree{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 29rem;
+    margin-top: 13rem; 
+}
+
+.specxIconFour{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 29rem;
+    margin-top: 27rem; 
+}
+
+.liCat{
+    list-style-type: none;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #5C6168;
+    cursor: pointer;
+    padding-top: 0.5rem;
+    transition: all .2s ease-in-out; 
+}
+
+.liCat:hover{
+    transform: scale(1.1); 
+    color: #949996;
+}
+
+.categoryH{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #0A0A0B;
+    margin-left: 2.5rem;
+}
+
+.filterContainer {
+    text-align: center;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease-out;
+}
+  
+  .filterContainer.active {
+    height: 450px; /* adjust to the height you want */
+}
+
+.containerGuideDescription{
+    width: 700px;
+    overflow: hidden;
+}
+
+.imageInsert{
+    width: 1000px;
+}
+
+.EDinputMedia{
+    border-width: 0 0 2px 0;
+	border-color: #5C6168;
+    background-color: transparent;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #0A0A0B;
+    width:70%;
+    margin-top: 2rem;
+    margin-left: -6rem;
+    height: max-content;
+}
+
+.userContainerOne{
+    text-align: center;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3rem;
+}
+
+.usernameUserDetails{
+    margin-left: 3rem;
+    vertical-align: top;
+    text-align: left;
+}
+
+.usernameUserDetailsTwo{
+    margin-left: 14.9rem;
+    vertical-align: top;
+    margin-top: -3rem;
+    text-align: left;
+}
+
+.userContainerTwo{
+    text-align: center;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    
+}
+
+.sectionTicket{
+    width: 758px;
+    height: 86px;
+    background: #F3F7FB;
+    border-radius: 24px;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12rem;
+}
+
+.event{
+    margin-right: 10rem;
+    margin-left: 16rem;
+    padding-top: 1rem;
+}
+
+.userTicketTitle{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.titleUserTicket{
+    margin-right: 6.5rem;
+    margin-left: 14.5rem;
+    padding-top: 1rem;
+}
+
+.sectionTeam{
+    width: 758px;
+    height: 86px;
+    background: #F3F7FB;
+    border-radius: 24px;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40rem;
+}
+
+.teamUsername{
+    vertical-align: top;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+
+.teamContainer{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+.iconContainerTwo{
+    margin-left: 7rem;
+    text-align: left;
+    
+}
+
+.username{
+    vertical-align: top;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 30px;
+    color: #000000;
+    width: 300px;
+}
+
+.iconContainer{
+    margin-left: 16rem;
+    text-align: left;
+    
+}
+
+
+.questionTitle{
+    width: 700px;
+    vertical-align: top;
+}
+
+.EDinputMediaTwo{
+    border-width: 0 0 2px 0;
+	border-color: #5C6168;
+    background-color: transparent;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #0A0A0B;
+    width:35%;
+    position: absolute;
+    height: max-content;
+    margin-top: 8rem;
+    margin-left: 1rem;
+}
+
+.EDinputMediaThree{
+    border-width: 0 0 2px 0;
+	border-color: #5C6168;
+    background-color: transparent;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #0A0A0B;
+    width:35%;
+    position: absolute;
+    height: max-content;
+    margin-top: 8rem;
+    margin-left: -38rem;
+}
